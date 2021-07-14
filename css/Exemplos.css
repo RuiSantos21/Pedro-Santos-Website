@@ -1,0 +1,115 @@
+@import url(Setup.css);
+@import url(nav.css);
+
+
+/* Image Slider */
+
+#slider{
+    overflow: hidden;
+    height: 50vh;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+
+@keyframes slider {
+    0% { left: 0%;}
+30% { left: 0%;}
+40% { left: -100%; }
+70% { left: -100%;}
+80% { left: -200%;}
+90% {  left: -200%; }
+100% {   left: -300%;} 
+}
+
+    /* Temas */
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin: 1%;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.grid-item{
+    flex: 1 1 200px;
+    max-width: 20rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+
+
+
+.grid-item:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+.img-card{
+    display: block;
+    max-width: 100%;
+    max-height: 50%;
+}
+.content{
+    padding: 0em 1em 1em 1em;
+}
+.card-header{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-bottom: 1rem;
+}
+.card-text{
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    color: #3d3d3d;
+    margin-bottom: 1rem;
+}
+.card-btn{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    background-color: #4f7d9e;
+    border: none;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.card-btn span{
+    margin-left: 0.5rem;
+    transition: 0.2s;
+}
+
+.card-btn:hover {
+    transform: translateY(-5%) translateX(1%);
+    background-color: #203440;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+
+
+

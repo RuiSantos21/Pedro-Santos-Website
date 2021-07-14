@@ -1,0 +1,119 @@
+@import url("Setup.css");
+@import url(nav.css);
+
+
+
+/* Contact */
+.holder{
+    justify-content: center;
+    display: flex;
+    margin-top: 3.55rem;
+}
+.bman{
+    width: 27rem;
+    height: 36rem;
+}
+.info{
+    margin-right: 10rem;
+}
+.name{
+    color: #223767FF;
+}
+.text-holder{
+    margin-top: 5rem;
+}
+h1, h2{
+    margin: 0px;
+}
+p{
+    margin: 0.3rem 0 0.5rem 0 ;
+}
+button{
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    background-color: #4f7d9e;
+    border: none;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+button:hover{
+    transform: translateY(-5%) translateX(1%);
+    background-color: #203440;
+    color: white;
+}
+
+/* About */
+
+.tools{
+    max-width: 30rem;
+    max-height: 16rem;
+    border-radius: 0.5rem;
+}
+
+.why-us{
+    display: flex;
+    margin: 5rem;
+}
+
+.text{
+    margin-left: 5rem;
+    width: 45rem;
+}
+
+/* Exemplos */
+.holder-ex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.Exemplos{
+    display: flex;
+    flex: 1 1 200px;
+    padding: 4rem;
+    margin: 5rem;
+    background: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+    max-width: 60rem;
+    align-self: center;
+}
+
+.Exemplos:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+.text-2{
+    margin: 5rem;
+    width: 20rem;
+}
+
+.ex-btn{
+    margin-top: 10%;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    background-color: #4f7d9e;
+    border: none;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    height: 3rem;
+}
+
+.janela{
+    margin: 1em;
+    width: 10rem;
+    height: 15rem;
+}
+

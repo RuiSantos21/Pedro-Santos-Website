@@ -1,0 +1,47 @@
+@import url(Setup.css);
+@import url(nav.css);
+
+.holder{
+    margin: 5rem;
+}
+
+.star , .star-fixed{
+    max-width: 15px;
+    max-height: 15px;
+    margin-bottom: 1rem;
+}
+
+.review{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+    border-bottom-style: inset;
+    border-bottom-color: #223767FF;
+}
+
+.all-reviews{
+    margin: 1rem;
+    padding: 2rem;
+    
+}
+
+.title{
+    margin: 1rem;
+}
+
+.name{
+    color: gray;
+}
+
+.comment{
+    border-style:solid;
+    border-width: thin;
+    border-radius: 0.2rem;
+    border-color: #606060;
+}
+.comment p{
+    margin: 1rem;
+    font-family: "Louis_George_Cafe_Light";
+    font-size: 1rem;
+}

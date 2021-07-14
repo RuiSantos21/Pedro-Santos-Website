@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "Louis_George_Cafe";
+    src:url("../fonts/Louis\ George\ Cafe.ttf")
+}
+
+@font-face{
+    font-family: "Louis_George_Cafe_Light";
+    src:url("../fonts/Louis\ George\ Cafe\ Light.ttf")
+}
+
+@font-face{
+    font-family: "Louis_George_Cafe_Bold";
+    src:url("../fonts/Louis\ George\ Cafe\ Bold.ttf")
+}

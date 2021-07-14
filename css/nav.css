@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    width: 100%;
+    background: #203440;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header .container{
+    display: flex;
+    width: 95%;
+    max-width: 980px;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+.user_login{
+    display: block;
+}

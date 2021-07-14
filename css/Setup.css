@@ -1,0 +1,13 @@
+@import url(fonts.css);
+html{
+    box-sizing: border-box;
+}
+body, ul , li {
+    
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: "Louis_George_Cafe",Arial, Helvetica;
+}

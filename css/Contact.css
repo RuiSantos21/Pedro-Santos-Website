@@ -1,0 +1,176 @@
+@import url(Setup.css);
+@import url(nav.css);
+
+
+.Intro{
+    text-align: center;
+    margin-top: 5rem;
+    font-family: "Louis_George_Cafe_Bold";
+}
+
+
+.options{
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    padding: 3rem;
+    flex: 1 1 200px;
+    height: 5rem;
+    width: 5rem;
+    background: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+    font-family: "Louis_George_Cafe";
+    font-size: 1.2rem;
+}
+
+
+.btn{
+    margin: 3rem;
+    border-style: none;
+    border-radius: 0.5rem;
+    background-color: white;  
+}
+
+.btn:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.5);
+}
+
+.btn-active{
+    font-family: "Louis_George_Cafe_Bold";
+    font-size: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 3rem;
+}
+
+p{
+   color: black; 
+   text-align: center;
+}
+
+#addr{
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.map{
+    margin: 5rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #00297BFF;
+    
+}
+
+#cell{
+    margin: 5rem 5rem 5rem 20rem;
+    width: 30rem;
+    justify-content: center;
+    
+}
+.cell-holder{
+    margin: 5rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #00297BFF;
+    text-align: center;
+    display: inline-block;
+}
+#cell h2{
+    color: #00297BFF;
+}
+
+#email{
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.input-container{
+    margin: 5rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #00297BFF;
+}
+form{
+    width: 100%;
+    display: inline-block;
+    
+}
+.side-by-side{
+    display: flex;
+    width: 100%;
+}
+.styled-input{
+    width: 100%;
+}
+
+.styled-input:active, .styled-input:focus{
+    outline: none !important;
+    border:2px solid #00297BFF;
+}
+
+input,textarea{
+    margin: 0.5rem;
+    padding: 1rem;
+    border-style:solid;
+    border-width: thin;
+    border-radius: 0.2rem;
+    border-color: #606060;
+}
+
+
+.styled-input.wide{
+    width: 90%;
+}
+.btn-submit{
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    background-color: #4f7d9e;
+    border: none;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    margin: 0.5rem;
+}
+
+.btn-submit:hover{
+    transform: translateY(-5%) translateX(1%);
+    background-color: #203440;
+    color: white;
+}
+
+.warning{
+    text-align: center;
+    color: red;
+}
+
+
+
+
+/* Mostrar os items */
+.tabs_content{
+    display: none;
+}
+
+.tabs_content-active{
+    display: flex;
+}

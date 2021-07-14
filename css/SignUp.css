@@ -1,0 +1,66 @@
+@import url(Setup.css);
+@import url(nav.css);
+
+.warning{
+    color: red;
+}
+
+.side-by-side{
+    display: flex;
+    width: 100%;
+}
+.input-container{
+
+    
+    margin: 5rem auto;
+    padding: 3rem;
+    width: 15rem;
+
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #00297BFF;
+}
+form{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+}
+
+
+
+.styled-input:active, .styled-input:focus{
+    outline: none !important;
+    border:2px solid #00297BFF;
+}
+
+input,textarea{
+    margin: 0.5rem;
+    padding: 1rem;
+    border-style:solid;
+    border-width: thin;
+    border-radius: 0.2rem;
+    border-color: #606060;
+}
+
+
+
+.btn-submit{
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    background-color: #4f7d9e;
+    border: none;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    margin: 0.5rem;
+}
+
+.btn-submit:hover{
+    transform: translateY(-5%) translateX(1%);
+    background-color: #203440;
+    color: white;
+}
